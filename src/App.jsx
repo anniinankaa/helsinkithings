@@ -4,6 +4,7 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import HomePage from './pages/homePage'
 import { Routes, Route } from "react-router"
+import Navbar from './components/navigation/navbar'
 import './App.css'
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
 
   return (
     <div className="App">
+      <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
       </Routes>
