@@ -1,0 +1,41 @@
+
+.homepics-container {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.homepics-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  display: block;
+}
+
+.horz-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32px;
+    height: 100%;
+}
+
+.vert-container {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.homepics-container h1 {
+    font-size: 86px;
+}
