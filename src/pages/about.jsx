@@ -2,7 +2,7 @@ import './about.css'
 
 function AboutPage () {
   return (
-    <div className="about-hero split-container">
+    <section className="about-hero split-container">
       <div className="left-panel">
         <h1>A truly local guide sharing culture, places and stories that bring Helsinki to life.</h1>
         <div className="socials">
@@ -13,11 +13,14 @@ function AboutPage () {
             Tiktok
           </a>
         </div>
+        <p>Helsinkithings offers cultural storytelling and community-driven marketing to create a lasting impact for your brand in the urban landscape.</p>
+        <br/>
+        <p>As your urban partner, we manage the entire lifecycle of a collaboration from scouting the unique narrative of your venue to producing high-engagement content.</p>
       </div>
       <div className="image-container">
-        <img src="/about/hero.png"></img>
+        <img src="/about/hero.png" alt="a café with atmospheric lighting"></img>
       </div>
-    </div>
+    </section>
   )
 }
 
