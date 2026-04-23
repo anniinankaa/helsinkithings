@@ -50,15 +50,10 @@ body {
   box-sizing: border-box;
 }
 
-h1,
-h2 {
-  font-family: var(--heading);
-  font-weight: 500;
-  color: var(--color-black);
-}
-
 h1, .text-2xl {
+  font-family: var(--heading);
   font-size: var(--font-size-2xl);
+  font-weight: 500;
   @media (max-width: 1024px) {
     font-size: var(--font-size-xl);
   }
@@ -66,6 +61,8 @@ h1, .text-2xl {
 
 h2, .text-xl {
   font-size: var(--font-size-xl);
+  font-family: var(--heading);
+  font-weight: 500;
   @media (max-width: 1024px) {
     font-size: var(--font-size-lg);
   }
@@ -76,6 +73,14 @@ p, .text-ml {
   font-weight: 400;
   @media (max-width: 1024px) {
     font-size: var(--font-size-xs);
+  }
+}
+
+.text-md {
+  font-size: var(--font-size-md);
+  font-weight: 400;
+  @media (max-width: 1024px) {
+    font-size: var(--font-size-2xs);
   }
 }
 

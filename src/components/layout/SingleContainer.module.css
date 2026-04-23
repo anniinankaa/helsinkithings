@@ -1,0 +1,12 @@
+.singleContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-top: 1px solid #333333;
+  padding: 20px;
+  text-align: left;
+
+  @media (max-width: 768px) {
+
+  }
+}
