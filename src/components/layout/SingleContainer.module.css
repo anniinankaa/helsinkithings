@@ -1,9 +1,9 @@
 .singleContainer {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: var(--space-md);
   border-top: 1px solid #333333;
-  padding: 20px;
+  padding: var(--space-md);
   text-align: left;
 
   @media (max-width: 768px) {

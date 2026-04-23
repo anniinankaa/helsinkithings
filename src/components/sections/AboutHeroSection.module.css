@@ -7,8 +7,8 @@
 .pane {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  padding: 20px;
+  gap: var(--space-md);
+  padding: var(--space-md);
   text-align: left;
 }
 
@@ -34,7 +34,7 @@
   justify-content: space-between;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: var(--space-md);
 }
 
 .imageContainer img {
