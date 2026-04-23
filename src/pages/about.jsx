@@ -5,7 +5,7 @@ function AboutPage () {
     <section className="about-hero split-container">
       <div className="left-panel">
         <div className="left-panel-top">
-          <h1>A truly local guide sharing culture, places and stories that bring Helsinki to life.</h1>
+          <h1 className="text-xl">A truly local guide sharing culture, places and stories that bring Helsinki to life.</h1>
         </div>
         <div className="left-panel-bottom">
           <div className="socials">

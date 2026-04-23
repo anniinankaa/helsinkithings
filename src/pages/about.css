@@ -1,4 +1,7 @@
 
+h1 {
+  margin: 0;
+}
 
 .socials {
   display: flex;
