@@ -1,7 +1,4 @@
 
-.about-hero {
-  display: flex
-}
 
 .socials {
   display: flex;
@@ -9,6 +6,27 @@
   gap: 1rem;
 }
 
+.left-panel {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+
+.left-panel-bottom {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .image-container img {
-  max-height: 60vh;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  max-width: 50vw;
+}
+
+@media (max-width: 768px) {
+  .image-container img {
+    max-width: 100%;
+  }
 }

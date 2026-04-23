@@ -200,13 +200,30 @@
   align-items: stretch;
   border-top: 1px solid #333333;
 
-  div {
+  > div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     padding: 20px;
     text-align: left;
   }
 
-  div:first-child {
+  > div:first-child {
     border-right: 1px solid #333333;
   }
 
+}
+
+@media (max-width: 768px) {
+  .split-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    > div:first-child {
+      border: none;
+    }
+
+  }
 }
