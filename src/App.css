@@ -182,3 +182,30 @@
     border-right-color: var(--border);
   }
 }
+
+.outline-button {
+  display: flex;
+  border: 1px solid black;
+  text-decoration: none;
+  width: 15rem;
+  border-radius: 100px;
+  padding: .5rem;
+}
+
+.split-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 0px;
+  align-items: stretch;
+  border-top: 1px solid #333333;
+
+  div {
+    padding: 20px;
+  }
+
+  div:first-child {
+    border-right: 1px solid #333333;
+  }
+
+}
