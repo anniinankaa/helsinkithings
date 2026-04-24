@@ -6,9 +6,33 @@
   align-items: stretch;
   border-top: 1px solid #333333;
 
+  >:first-child {
+    border-right: 1px solid var(--color-black);
+    flex-grow: 1;
+
+    @media (max-width: 768px) {
+      border: none;
+    }
+  }
+
   @media (max-width: 768px) {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  > * > * { /* jokaiselle sisäelementille paddingit */
+    padding: var(--space-md);
+  }
+}
+
+.splitContainer > :first-child { /* vasen div */  
+  > *:not(:first-child) { /* vasemman ylimpään ei reunusta */
+    border-top: 1px solid var(--color-black);
+    padding-top: var(--space-md);
+  }
+
+  > *:not(:last-child) {
+    padding-bottom: var(--space-md);
   }
 }
