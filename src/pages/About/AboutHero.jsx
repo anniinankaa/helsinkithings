@@ -1,7 +1,7 @@
-import SplitContainer from '../layout/SplitContainer';
-import styles from './AboutHeroSection.module.css';
+import SplitContainer from '../../components/layout/SplitContainer';
+import styles from './AboutHero.module.css';
 
-function AboutHeroSection() {
+function AboutHero() {
   const leftPane = (
     <div className={`${styles.leftPane} ${styles.pane}`}>
       <div>
@@ -36,4 +36,4 @@ function AboutHeroSection() {
   );
 }
 
-export default AboutHeroSection;
+export default AboutHero;

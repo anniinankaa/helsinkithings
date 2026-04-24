@@ -1,7 +1,7 @@
-import SingleContainer from "../layout/SingleContainer";
-import styles from "./AboutStatsSection.module.css";
+import SingleContainer from "../../components/layout/SingleContainer";
+import styles from "./AboutStats.module.css";
 
-function AboutStatsSection() {
+function AboutStats() {
   return (
     <SingleContainer>
       <h2>We want to bring people together - create connection and a sense of community.</h2>
@@ -36,4 +36,4 @@ function AboutStatsSection() {
 }
 
 
-export default AboutStatsSection;
+export default AboutStats;
