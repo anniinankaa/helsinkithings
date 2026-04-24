@@ -1,0 +1,30 @@
+.collage {
+  display: grid;
+  gap: var(--space-sm);
+  grid-template-columns: 2fr 3fr;
+  width: 100%;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  img:first-child {
+    grid-column: span 2;
+    aspect-ratio: 16 / 9;
+  }
+  
+  img:nth-child(2) {
+    aspect-ratio: 3 / 4;
+  }
+
+  img:nth-child(3) {
+    aspect-ratio: 1 / 1;
+  }
+
+  img:last-child {
+    grid-column: span 2;
+    aspect-ratio: 9 / 5;
+  }
+}

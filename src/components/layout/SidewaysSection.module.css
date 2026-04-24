@@ -1,15 +1,31 @@
 .sidewaysSection {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
   gap: var(--space-lg);
+
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+  }
 }
 
 .header {
   writing-mode: vertical-lr;
   transform: rotate(180deg);
   text-align: center;
+  width: 100%;
+
+  @media (max-width: 768px) {
+    writing-mode: unset;
+    transform: rotate(0deg);
+    text-align: left;
+  }
 }
 
 .content {
-  
+  text-align: left;
+
+
 }

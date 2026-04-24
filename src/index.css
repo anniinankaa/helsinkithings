@@ -20,6 +20,7 @@
   --font-size-xl: 3.75rem; /* 60px */
   --font-size-2xl: 5.3125rem; /* 85px */
 
+  --space-sm: 20px;
   --space-md: clamp(20px, 4vw, 40px);
   --space-lg: clamp(40px, 8vw, 80px);
 

@@ -4,6 +4,7 @@ import AboutBio from './AboutBio';
 import AboutHero from './AboutHero';
 import AboutStats from './AboutStats';
 import AboutStory from './AboutStory';
+import AboutCollage from './AboutCollage';
 import './about.css'
 
 function AboutPage () {
@@ -18,7 +19,9 @@ function AboutPage () {
             <AboutStory/>
           </>
         } 
-        right={<p>kuvat tähän</p>} />
+        right={<AboutCollage />}
+        ratio="1.5fr 1fr"
+      />
     </div>
   )
 }
