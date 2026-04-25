@@ -1,0 +1,25 @@
+.sectionContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  border-top: 1px solid var(--color-black);
+
+  > div {
+    padding: var(--space-md);
+  }
+
+  > div:not(:last-child) {
+    border-right: 1px solid var(--color-black);
+  }
+
+}
+
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h2 {
+    line-height: 1;
+  }
+}

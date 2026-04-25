@@ -72,6 +72,15 @@ h2, .text-xl {
   }
 }
 
+h3, .text-lg {
+  font-size: var(--font-size-lg);
+  font-family: var(--heading);
+  font-weight: 500;
+  @media (max-width: 1024px) {
+    font-size: var(--font-size-ml);
+  }
+}
+
 p, .text-ml {
   font-size: var(--font-size-ml);
   font-weight: 400;

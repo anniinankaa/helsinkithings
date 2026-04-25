@@ -5,6 +5,7 @@ import AboutHero from './AboutHero';
 import AboutStats from './AboutStats';
 import AboutStory from './AboutStory';
 import AboutCollage from './AboutCollage';
+import AboutExplore from './AboutExplore';
 import './about.css'
 
 function AboutPage () {
@@ -20,8 +21,9 @@ function AboutPage () {
           </>
         } 
         right={<AboutCollage />}
-        ratio="1.5fr 1fr"
+        ratio="1.2fr 1fr"
       />
+      <AboutExplore />
     </div>
   )
 }
