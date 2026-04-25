@@ -98,7 +98,7 @@ p, .text-ml {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
   color: inherit;
   font-size: var(--font-size-ml);
   font-weight: 400;

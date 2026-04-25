@@ -6,6 +6,7 @@ import AboutStats from './AboutStats';
 import AboutStory from './AboutStory';
 import AboutCollage from './AboutCollage';
 import AboutExplore from './AboutExplore';
+import AboutPeople from './AboutPeople';
 import './about.css'
 
 function AboutPage () {
@@ -24,6 +25,7 @@ function AboutPage () {
         ratio="1.2fr 1fr"
       />
       <AboutExplore />
+      <AboutPeople />
     </div>
   )
 }

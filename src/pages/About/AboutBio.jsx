@@ -1,5 +1,4 @@
 import SidewaysSection from '../../components/layout/SidewaysSection';
-import styles from './AboutBio.module.css';
 
 function AboutBio() {
   const content = (
