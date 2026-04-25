@@ -1,4 +1,3 @@
-import SingleContainer from '../../components/layout/SingleContainer';
 import SplitContainer from '../../components/layout/SplitContainer';
 import AboutBio from './AboutBio';
 import AboutHero from './AboutHero';
@@ -7,6 +6,7 @@ import AboutStory from './AboutStory';
 import AboutCollage from './AboutCollage';
 import AboutExplore from './AboutExplore';
 import AboutPeople from './AboutPeople';
+import AboutContact from './AboutContact';
 import './about.css'
 
 function AboutPage () {
@@ -26,6 +26,7 @@ function AboutPage () {
       />
       <AboutExplore />
       <AboutPeople />
+      <AboutContact />
     </div>
   )
 }

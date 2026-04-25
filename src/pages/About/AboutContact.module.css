@@ -1,0 +1,75 @@
+.sectionContainer {
+  background-image: url(/about/about-contact.webp);
+  background-size: cover;
+  background-position: center;
+  aspect-ratio: 1.856;
+  padding: var(--space-lg);
+
+  @media (max-width: 1439px) {
+    aspect-ratio: auto;
+  }
+  
+  @media (max-width: 374px) {
+    padding: var(--space-md);
+  }
+
+
+}
+
+.innerContainer {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+
+  > * {
+    flex: 1;
+    
+  }
+
+  
+}
+
+.contactCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: var(--space-md);
+  background-color: var(--color-white);
+  padding: var(--space-md);
+  text-align: left;
+}
+
+.innerContainer img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  overflow: hidden;
+  background-color: white;
+
+  @media (max-width: 1439px) {
+    display: none;
+  }
+}
+  
+.contactCardBottom {
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  gap: var(--space-md);
+
+  @media (max-width: 1439px) {
+    max-width: 100%;
+  }
+}
+
+.filledButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-black);
+  text-decoration: none;
+  width: 15rem;
+  border-radius: 100px;
+  padding: .5rem;
+  color: var(--color-white);
+}
