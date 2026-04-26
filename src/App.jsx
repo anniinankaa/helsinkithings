@@ -5,6 +5,7 @@ import heroImg from './assets/hero.png'
 import HomePage from './pages/HomePage/HomePage.jsx'
 import { Routes, Route } from "react-router"
 import Navbar from './components/layout/Navbar.jsx'
+import Footer from './components/layout/Footer.jsx'
 import './App.css'
 import AboutPage from './pages/About/About.jsx'
 
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
       </Routes>
+      <Footer />
     </div>
   )
 }

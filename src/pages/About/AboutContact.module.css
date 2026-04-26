@@ -4,6 +4,7 @@
   background-position: center;
   aspect-ratio: 1.856;
   padding: var(--space-lg);
+  border-top: 1px solid var(--color-black);
 
   @media (max-width: 1439px) {
     aspect-ratio: auto;
@@ -50,7 +51,7 @@
     display: none;
   }
 }
-  
+
 .contactCardBottom {
   display: flex;
   flex-direction: column;
