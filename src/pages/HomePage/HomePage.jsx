@@ -1,5 +1,7 @@
 import HomePics from './HomePics.jsx';
 import HomeIntro from './HomeIntro.jsx';
+import HomeTests from './HomeTests.jsx';
+
 
 
 function HomePage () {
@@ -8,6 +10,7 @@ function HomePage () {
    <div>
       <HomePics/>
       <HomeIntro/> 
+      <HomeTests/>
   </div>
 );
 

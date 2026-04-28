@@ -1,0 +1,40 @@
+
+.test-screen {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 1550px;
+    height: 982px;
+    background: var(--background);
+    
+}
+
+.test-screen > h2 {
+    margin-top: 50px;
+}
+
+.preference-button {
+  display: flex;
+  border: 1px solid var(--color-black);
+  text-decoration: none;
+  width: 20rem;
+  border-radius: 100px;
+  padding: .5rem;
+  justify-content: center;
+  justify-self: center;
+  margin-top: 50px;
+}
+
+.preference-button:hover {
+    border: 2px;
+    background-color: var(--color-black);
+    color: var(--background);
+    cursor: pointer;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+    overflow: hidden;
+}
