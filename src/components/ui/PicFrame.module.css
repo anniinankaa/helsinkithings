@@ -6,4 +6,21 @@
     height: 500px;
     background: #d9d9d9;
     transform: scale(0.8);
+    transition: box-shadow 0.3s ease;
+}
+
+.picFrame:hover {
+    box-shadow: 0 0 0 3px #333;
+    cursor: pointer;
+}
+
+.active {
+    padding: 13px;
+    display: grid;
+    width: 400px;
+    height: 500px;
+    background: #d9d9d9;
+    transform: scale(0.8);
+    box-shadow: 0 0 0 5px #333;
+    cursor: pointer;
 }
