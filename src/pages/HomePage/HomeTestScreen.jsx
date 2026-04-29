@@ -2,12 +2,12 @@ import './HomeTest.css';
 import PicFrame from '../../components/ui/PicFrame';
 import {useState} from 'react';
 
-function HomeTest ({color, header, images = []}) {
+function HomeTest ({color, borderColor, header, images = []}) {
 
     const [isActive, setIsActive] = useState(false);
 
     const pictures = images.map((pic) => (
-       <PicFrame imageSrc={pic.src} label= {pic.label} alt={pic.alt}/>
+       <PicFrame lineColor={borderColor} imageSrc={pic.src} label= {pic.label} alt={pic.alt}/>
     ));
 
     return (

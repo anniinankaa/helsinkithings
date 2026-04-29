@@ -7,10 +7,11 @@
     background: #d9d9d9;
     transform: scale(0.8);
     transition: box-shadow 0.3s ease;
+    border: var(--border);
 }
 
 .picFrame:hover {
-    box-shadow: 0 0 0 3px #333;
+    box-shadow: 0 0 0 3px var(--border);
     cursor: pointer;
 }
 
@@ -21,6 +22,6 @@
     height: 500px;
     background: #d9d9d9;
     transform: scale(0.8);
-    box-shadow: 0 0 0 5px #333;
+    box-shadow: 0 0 0 5px var(--border);
     cursor: pointer;
 }
