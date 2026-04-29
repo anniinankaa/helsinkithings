@@ -1,12 +1,10 @@
 import styles from './PicFrame.module.css';
 import {useState} from 'react'; 
 
-function PicFrame({lineColor, label, imageSrc, imageAlt }) {
-
-  const [isActive, setIsActive] = useState(false);
+function PicFrame({lineColor, label, imageSrc, imageAlt, isActive, onClick}) {
 
   return (
-    <div className={isActive ? styles.active : styles.picFrame} style={{"--border": lineColor}} onClick={() => setIsActive(!isActive)}>
+    <div className={isActive ? styles.active : styles.picFrame} style={{"--border": lineColor}} onClick={onClick}>
       <img src={imageSrc} alt={imageAlt}/>
       <h3>{label}</h3>
     </div>
