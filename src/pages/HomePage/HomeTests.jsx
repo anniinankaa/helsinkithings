@@ -1,6 +1,7 @@
 import HomeTest from './HomeTestScreen.jsx';
 
 function HomeTests () {
+    const [results, setResults] = useState([])
     return (
     <div>
         <HomeTest color='#A7D1F4' borderColor='#E8D87A' header='Pick your vibe' 
