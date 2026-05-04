@@ -9,14 +9,14 @@ function Footer () {
         <div className={styles.leftContainer}>
           <h3>Social Media</h3>
           <br/>
-          <a>Instagram</a>
+          <a href="https://www.instagram.com/helsinkithings">Instagram</a>
           <br/>
-          <a>Tiktok</a>
+          <a href="https://www.tiktok.com/@helsinkithings">Tiktok</a>
         </div>
         <div className={styles.middleContainer}>
           <h3>E-book</h3>
           <br/>
-          <a>Payhip</a>
+          <a href="https://payhip.com/helsinkithings">Payhip</a>
         </div>
         <div className={styles.rightContainer}>
           <h3>Contact Us</h3>

@@ -9,10 +9,10 @@ function AboutHero() {
       </div>
       <div className={styles.leftPaneBottom}>
         <div className={styles.socials}>
-          <a href="" className="outline-button" style={{justifyContent: "flex-start"}}>
+          <a href="https://www.instagram.com/helsinkithings" className="outline-button" style={{justifyContent: "flex-start"}}>
             Instagram
           </a>
-          <a href="" className="outline-button" style={{justifyContent: "flex-start"}}>
+          <a href="https://www.tiktok.com/@helsinkithings" className="outline-button" style={{justifyContent: "flex-start"}}>
             Tiktok
           </a>
         </div>
