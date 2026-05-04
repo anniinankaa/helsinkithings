@@ -1,17 +1,30 @@
 import './HomeTest.css';
 import PicFrame from '../../components/ui/PicFrame';
-import {useState} from 'react';
+import {useState, useEffect} from 'react';
 
-function HomeTest ({color, borderColor, header, images = []}) {
+function HomeTest ({iD, onSelect, color, borderColor, header, images = []}) {
 
     const [isSelected, setSelected] = useState(null);
+
+    const labels = new Map();
+
+    images.map((pic, i) => (
+        labels.set(i, pic.label)
+    ));
+
+    const handleClick = (value) => {
+        setSelected(prev => (prev === value ? null : value));
+        onSelect(iD, value);
+    };
 
     const pictures = images.map((pic, i) => (
        <PicFrame lineColor={borderColor} imageSrc={pic.src} 
        label= {pic.label} alt={pic.alt} 
        isActive={isSelected === i}
-       onClick={() => setSelected(prev => (prev == i ? null : i))}/>
+       onClick={() => handleClick(pic.label)}/>
     ));
+
+    
 
     return (
         <div className='test-screen' style={{"--background": color}}>
@@ -19,8 +32,7 @@ function HomeTest ({color, borderColor, header, images = []}) {
             <div className='image-container'>
                 {pictures}
             </div>
-            <div className={`preference-button ${isSelected === 'none' ? 'preference-active' : ''}`} onClick={() =>
-                setSelected(prev => (prev === 'none' ? null : 'none'))}>
+            <div className={`preference-button ${isSelected === 'none' ? 'preference-active' : ''}`} onClick={() => handleClick('none')}>
                 No preference
             </div>
         </div>

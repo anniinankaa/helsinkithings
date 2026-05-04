@@ -1,0 +1,27 @@
+
+.result-screen {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 1550px;
+    height: 982px;
+    background: var(--color-light-blue);  
+    padding: 50px;
+}
+
+.more-button {
+  display: flex;
+  border: 1px solid var(--color-black);
+  text-decoration: none;
+  width: fit-content;
+  border-radius: 100px;
+  padding: .5rem;
+  justify-content: center;
+  justify-self: center;
+  margin-top: 0.5rem;
+  padding: 1% 2% 1% 2%;
+}
+
+.more-button:hover {
+    background-color: var(--color-yellow);
+    cursor: pointer;
+}
