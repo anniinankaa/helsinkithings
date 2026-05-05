@@ -7,7 +7,7 @@ function HomeTests () {
 
     const resultfunc = (number, value) => {
 
-    setResults(prev => {
+      setResults(prev => {
         if (prev[number] === value) {
             const updated = { ...prev };
             delete updated[number];
@@ -18,7 +18,8 @@ function HomeTests () {
             ...prev,
             [number]: value
         };
-    }); };
+      });
+    };
 
     return (
     <div>

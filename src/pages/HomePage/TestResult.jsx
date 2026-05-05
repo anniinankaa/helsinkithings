@@ -28,8 +28,8 @@ function TestResult ({results}) {
                     <div className='text-box'>
                         <span>{k.description} <br/><br/> 
                         {k.info.address} <br/> 
-                        <a href=''>{k.info.website} </a><br/> 
-                        <a href=''>{k.info.ighandle}</a></span>
+                        <a href={k.info.website} target="_blank">{k.info.website} </a><br/> 
+                        <a href={`https://www.instagram.com/${k.info.ighandle}`} target="_blank">@{k.info.ighandle}</a></span>
                     </div>
                 </div>)}
                 <button className='right-button'onClick={nextOption}><img src='/arrows/rightarrow.png' alt='right arrow'/></button>
