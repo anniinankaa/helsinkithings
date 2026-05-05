@@ -4,27 +4,31 @@ import './HomeIntro.css';
 function HomeIntro () {
     return (
         <SingleContainer>
-            <h2>Your local guide for things to do in Helsinki 💌</h2>
-            <br/>
-            <p>Follow us on social media for weekly recommendations <br/> 
-               and plenty more tips on things to do in Helsinki!</p>
-            <br/>
-            <div className="social-buttons">
-                <a href="https://www.instagram.com/helsinkithings" className="outline-button">
-                Instagram
-                </a>
+            <div className="home-intro-content">
+                <h2 className="intro-heading">Your local guide for things to do in Helsinki 💌</h2>
+                
+                <p className="intro-text">
+                    Follow us on social media for weekly recommendations 
+                    and plenty more tips on things to do in Helsinki!
+                </p>
 
-                <a href="https://www.tiktok.com/@helsinkithings" className="outline-button">
-                TikTok
-                </a>
+                <div className="social-buttons">
+                    <a href="https://www.instagram.com/helsinkithings" className="outline-button">
+                        Instagram
+                    </a>
 
-                <a href="https://payhip.com/helsinkithings" className="outline-button">
-                E-book
-                </a>
+                    <a href="https://www.tiktok.com/@helsinkithings" className="outline-button">
+                        TikTok
+                    </a>
+
+                    <a href="https://payhip.com/helsinkithings" className="outline-button">
+                        E-book
+                    </a>
+                </div>
             </div>
-            <h2>Test what to do in Helsinki</h2>
+            {/* Tämä otsikko on Figmassa interaktiivisen osion yläpuolella */}
+            <h2 className="test-heading">Test what to do in Helsinki</h2>
         </SingleContainer>
     )
 }
-
 export default HomeIntro
