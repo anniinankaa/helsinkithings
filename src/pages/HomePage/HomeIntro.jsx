@@ -10,15 +10,15 @@ function HomeIntro () {
                and plenty more tips on things to do in Helsinki!</p>
             <br/>
             <div className="social-buttons">
-                <a href="" className="outline-button">
+                <a href="https://www.instagram.com/helsinkithings" className="outline-button">
                 Instagram
                 </a>
 
-                <a href="" className="outline-button">
+                <a href="https://www.tiktok.com/@helsinkithings" className="outline-button">
                 TikTok
                 </a>
 
-                <a href="" className="outline-button">
+                <a href="https://payhip.com/helsinkithings" className="outline-button">
                 E-book
                 </a>
             </div>

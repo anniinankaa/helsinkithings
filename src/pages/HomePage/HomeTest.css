@@ -2,8 +2,8 @@
 .test-screen {
     margin-top: 50px;
     margin-bottom: 50px;
-    width: 1550px;
     height: 982px;
+    background: var(--background);
     overflow-y: auto;
     background: var(--background);  
 }
@@ -13,23 +13,24 @@
 }
 
 .preference-button {
-  display: flex;
-  border: 1px solid var(--color-black);
-  text-decoration: none;
-  width: 20rem;
-  border-radius: 100px;
-  padding: .5rem;
-  justify-content: center;
-  justify-self: center;
-  margin-top: 50px;
-  margin-bottom: 10%;
+    display: flex;
+    border: 1px solid var(--color-black);
+    text-decoration: none;
+    width: 20rem;
+    border-radius: 100px;
+    padding: .5rem;
+    justify-content: center;
+    justify-self: center;
+    margin-top: 50px;
+    transform: scale(1);
+    transition: transform 0.2s ease;
+    user-select: none;
 }
 
 .preference-button:hover {
-    border: 2px;
-    background-color: var(--color-black);
-    color: var(--background);
     cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
 }
 
 .preference-active {
