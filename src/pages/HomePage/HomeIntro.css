@@ -1,6 +1,13 @@
+
 .social-buttons {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-bottom: 350px;
 }
+
+.outline-button:hover {
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+

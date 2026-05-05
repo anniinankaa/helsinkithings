@@ -26,7 +26,6 @@ function HomeIntro () {
                     </a>
                 </div>
             </div>
-            {/* Tämä otsikko on Figmassa interaktiivisen osion yläpuolella */}
             <h2 className="test-heading">Test what to do in Helsinki</h2>
         </SingleContainer>
     )
