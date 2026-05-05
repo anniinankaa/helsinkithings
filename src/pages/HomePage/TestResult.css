@@ -22,6 +22,7 @@
 }
 
 .options-container {
+    position: relative;
     display: block;
     flex-direction: row;
     justify-self: center;
@@ -30,6 +31,22 @@
     height: 470px;
     margin-bottom: 3%;
     margin-top: 3%;
+}
+
+button {
+    position: absolute;
+    margin: 0 5px;
+    border: none;
+    cursor: pointer;
+    bottom: 50%;
+}
+
+.left-button {
+    left: 1%;
+}
+
+.right-button {
+    right: 1%;
 }
 
 .option > h3 {
