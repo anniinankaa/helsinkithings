@@ -6,7 +6,13 @@ import {useState} from 'react';
 function TestResult ({results}) {
     const cleaned = results.filter(s => s !== 'none');
 
-    const options = events.filter(p => cleaned.every(k => p.tags.includes(k)));
+    // Pisteytetään ja järjestetään tapahtumat sen mukaan, kuinka monta matchia niillä on
+    const scoredEvents = events.map(event => {
+        const score = cleaned.filter(tag => event.tags.includes(tag)).length;
+        return {...event, score};
+    }).sort((a, b) => b.score - a.score);
+
+    const options = scoredEvents.filter(p => p.score > 0).slice(0, 5); // Näytä vain top 5
 
     const [currentIndex, setIndex] = useState(0);
 
@@ -31,10 +37,10 @@ function TestResult ({results}) {
                         <a href={k.info.website} target="_blank">{k.info.website} </a><br/> 
                         <a href={`https://www.instagram.com/${k.info.ighandle}`} target="_blank">@{k.info.ighandle}</a></span>
                     </div>
+                <span>{currentIndex + 1} / {options.length}</span>
                 </div>)}
                 <button className='right-button'onClick={nextOption}><img src='/arrows/rightarrow.png' alt='right arrow'/></button>
                 <button className='left-button'onClick={prevOption}><img src='/arrows/leftarrow.png' alt='left arrow'/></button>
-                
             </div>
             : <div className='option'>
                 <SidewaysSection header='No suggestions'/>
