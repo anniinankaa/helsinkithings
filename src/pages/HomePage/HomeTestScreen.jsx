@@ -6,21 +6,15 @@ function HomeTest ({iD, onSelect, color, borderColor, header, images = []}) {
 
     const [isSelected, setSelected] = useState(null);
 
-    const labels = new Map();
-
-    images.map((pic, i) => (
-        labels.set(i, pic.label)
-    ));
-
     const handleClick = (value) => {
         setSelected(prev => (prev === value ? null : value));
         onSelect(iD, value);
     };
 
-    const pictures = images.map((pic, i) => (
+    const pictures = images.map((pic) => (
        <PicFrame lineColor={borderColor} imageSrc={pic.src} 
        label= {pic.label} alt={pic.alt} 
-       isActive={isSelected === i}
+       isActive={isSelected === pic.label}
        onClick={() => handleClick(pic.label)}/>
     ));
 

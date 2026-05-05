@@ -8,6 +8,41 @@
     padding: 50px;
 }
 
+.option {
+    width: 500px;
+    height: 470px;
+    background: var(--color-primary);
+    justify-self: center;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10%;
+    
+}
+
+.options-container {
+    display: block;
+    flex-direction: row;
+    justify-self: center;
+    overflow: hidden;
+    width: 500px;
+    height: 470px;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+.option > h3 {
+    color: var(--color-dark-blue);
+}
+
+.text-box {
+    width: 327px;
+    height: 286px;
+    text-align: left;
+    font-size: 20px;
+}
+
 .more-button {
   display: flex;
   border: 1px solid var(--color-black);
@@ -17,11 +52,27 @@
   padding: .5rem;
   justify-content: center;
   justify-self: center;
-  margin-top: 0.5rem;
+  margin-top: 0.7rem;
   padding: 1% 2% 1% 2%;
 }
 
 .more-button:hover {
     background-color: var(--color-yellow);
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .result-screen {
+        height: auto;
+        width: auto;
+    }
+
+    .option {
+        transform: scale(auto);
+    }
+
+    .text-box {
+        font-size: 16px;
+    }
+
 }
