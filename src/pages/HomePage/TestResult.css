@@ -39,6 +39,12 @@ button {
     border: none;
     cursor: pointer;
     bottom: 50%;
+    transform: scale(0.85);
+    transition: transform 0.2s ease;
+}
+
+button:hover {
+    transform: scale(1);
 }
 
 .left-button {
