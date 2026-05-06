@@ -42,9 +42,10 @@ function TestResult ({results}) {
                 <button className='right-button'onClick={nextOption}><img src='/arrows/rightarrow.png' alt='right arrow'/></button>
                 <button className='left-button'onClick={prevOption}><img src='/arrows/leftarrow.png' alt='left arrow'/></button>
             </div>
-            : <div className='option'>
+            :   <div className='option'>
                 <SidewaysSection header='No suggestions'/>
-            </div> }
+                </div> 
+                }
             <h3>More things to do and see in Helsinki</h3>
             <div className='buttons'>
                 <a href='' className='more-button'>

@@ -37,7 +37,7 @@ function HomeTests () {
             { src: "/testpics/group.png", label: "Group fun", alt:'discoball'},
             { src: "/testpics/date.png", label: "Date" , alt: 'two drinks on table'}]}/>
 
-        <HomeTest iD={4} onSelect={resultfunc} color='#E8D87A' borderColor='#A7D1F4' header='Are you a/na'
+        <HomeTest iD={4} onSelect={resultfunc} color='#E8D87A' borderColor='#A7D1F4' header='Are you a/an'
         images={[{ src: "/testpics/early.png", label: "Early bird", alt: 'building in the morning'},
             { src: "/testpics/night.png", label: "Night owl", alt:'Amos rex at night'}]}/>
 
