@@ -29,7 +29,7 @@ function TestResult ({results}) {
             <h2>Our suggestions based on your interests</h2>
             {options.length > 0 ? 
             <div className='options-container'>{options.map((k, i) => 
-                <div className='option' style={currentIndex !== i ? {display: "none"}: null}>
+                <div className='option' style={currentIndex !== i ? {display: "none"}: null} key={i}>
                     <h3>{k.name}</h3>
                     <div className='text-box'>
                         <span>{k.description} <br/><br/> 

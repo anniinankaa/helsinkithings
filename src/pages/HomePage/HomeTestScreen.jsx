@@ -15,7 +15,9 @@ function HomeTest ({iD, onSelect, color, borderColor, header, images = []}) {
        <PicFrame lineColor={borderColor} imageSrc={pic.src} 
        label= {pic.label} alt={pic.alt} 
        isActive={isSelected === pic.label}
-       onClick={() => handleClick(pic.label)}/>
+       onClick={() => handleClick(pic.label)}
+       key={pic.label}
+       />
     ));
 
     
