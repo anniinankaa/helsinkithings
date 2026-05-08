@@ -39,8 +39,8 @@ function TestResult ({results}) {
                     </div>
                 <span>{currentIndex + 1} / {options.length}</span>
                 </div>)}
-                <button className='right-button'onClick={nextOption}><img src='/arrows/rightarrow.png' alt='right arrow'/></button>
-                <button className='left-button'onClick={prevOption}><img src='/arrows/leftarrow.png' alt='left arrow'/></button>
+                <button className='right-button'onClick={nextOption}><img src='/arrows/rightarrow.svg' alt='right arrow'/></button>
+                <button className='left-button'onClick={prevOption}><img src='/arrows/leftarrow.svg' alt='left arrow'/></button>
             </div>
             :   <div className='option'>
                 <SidewaysSection header='No suggestions'/>
