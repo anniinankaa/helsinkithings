@@ -2,8 +2,9 @@
 .picFrame {
     padding: 13px;
     display: grid;
-    width: 400px;
-    height: 500px;
+    width: 25vw;
+    aspect-ratio: 4/5;
+    max-width: 400px;
     background: var(--color-white);
     transform: scale(0.8);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -13,6 +14,7 @@
 
 .picFrame img {
     pointer-events: none;
+    width: 100%;
 }
 
 .picFrame:hover {
@@ -23,12 +25,18 @@
 .active {
     padding: 13px;
     display: grid;
-    width: 400px;
-    height: 500px;
+    width: 25vw;
+    aspect-ratio: 4/5;
+    max-width: 400px;
     background: var(--color-white);
     transform: scale(0.85);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     box-shadow: 0 0 0 10px var(--border);
     cursor: pointer;
     user-select: none;
+}
+
+.active img {
+    pointer-events: none;
+    width: 100%;
 }
