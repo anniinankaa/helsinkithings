@@ -1,3 +1,13 @@
+.App {
+  max-width: 1960px;
+  margin: 0 auto;
+
+  @media (min-width: 1961px) {
+    border-left: 1px solid var(--color-black);
+    border-right: 1px solid var(--color-black);
+  }
+}
+
 .outline-button {
   display: flex;
   border: 1px solid black;
