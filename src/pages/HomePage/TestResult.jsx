@@ -48,13 +48,13 @@ function TestResult ({results}) {
                 }
             <h3>More things to do and see in Helsinki</h3>
             <div className='buttons'>
-                <a href='' className='more-button'>
+                <a href='https://payhip.com/helsinkithings' className='more-button'>
                     <p>E-book by Helsinkithings</p>
                 </a>
-                <a href='' className='more-button'>
+                <a href='https://www.instagram.com/helsinkithings' className='more-button'>
                     <p>Instagram</p>
                 </a>
-                <a href='' className='more-button'>
+                <a href='https://www.tiktok.com/@helsinkithings' className='more-button'>
                     <p>TikTok</p>
                 </a>
             </div>

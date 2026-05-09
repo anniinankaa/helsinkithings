@@ -10,7 +10,7 @@ function Navbar () {
 
   return (
     <nav className="navbar">
-      <img src="/navlogo.png" alt="musta kirjekuori"></img>
+      <Link to="/"><img src="/navlogo.png" alt="musta kirjekuori"></img></Link>
       <div className="navbar-list">
         <div className="navbar-item">
           <Link to="/">Home</Link>

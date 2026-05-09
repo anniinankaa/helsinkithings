@@ -49,3 +49,7 @@
     line-height: 1;
   }
 }
+
+.sectionContainer a {
+  text-decoration: none;
+}
