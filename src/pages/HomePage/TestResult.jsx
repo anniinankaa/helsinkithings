@@ -2,6 +2,7 @@ import './TestResult.css';
 import {events} from './Events.js';
 import SidewaysSection from '../../components/layout/SidewaysSection';
 import {useState} from 'react';
+import { ChevronRight, ChevronLeft } from 'lucide-react';
 
 function TestResult ({results}) {
     const cleaned = results.filter(s => s !== 'none');
@@ -39,8 +40,8 @@ function TestResult ({results}) {
                     </div>
                 <span>{currentIndex + 1} / {options.length}</span>
                 </div>)}
-                <button className='right-button'onClick={nextOption}><img src='/arrows/rightarrow.svg' alt='right arrow'/></button>
-                <button className='left-button'onClick={prevOption}><img src='/arrows/leftarrow.svg' alt='left arrow'/></button>
+                <button className='right-button'onClick={nextOption}><ChevronRight size={64}/></button>
+                <button className='left-button'onClick={prevOption}><ChevronLeft size={64} /></button>
             </div>
             :   <div className='option'>
                 <SidewaysSection header='No suggestions'/>
