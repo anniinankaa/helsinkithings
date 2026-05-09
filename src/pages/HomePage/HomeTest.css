@@ -1,6 +1,6 @@
 
 .test-screen {
-    height: 982px;
+    min-height: 95vh;
     background: var(--background);
     overflow-y: auto;
     background: var(--background);
@@ -54,10 +54,25 @@
         flex-direction: column;
         justify-self: center;
         transform: scale(auto);
+        margin-top: 2vh;
+    }
+
+    #test-q5 .image-container {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .preference-button {
+        margin-top: 2vh;
     }
 
     .test-screen {
-        height: auto;
         width: auto;
+    }
+}
+
+@media (max-width: 400px) {
+    .image-container h3 {
+        font-size: var(--font-size-sm);
     }
 }

@@ -58,7 +58,7 @@ function HomeTests () {
               { src: "/testpics/night.png", label: "Night owl", alt:'Amos rex at night'}]}/>
         </div>
 
-        <div ref={(el) => questionRefs.current[5] = el}>
+        <div ref={(el) => questionRefs.current[5] = el} id="test-q5">
           <HomeTest iD={5} onSelect={resultfunc} color='#52709F' borderColor='#FBB8AF' header='What are you most into?'
           images={[{ src: "/testpics/food.png", label: "Food", alt: 'meal'},
               { src: "/testpics/art.png", label: "Art", alt:'paintings'},

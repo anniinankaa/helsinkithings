@@ -40,3 +40,17 @@
     pointer-events: none;
     width: 100%;
 }
+
+@media (max-width: 768px) {
+    .picFrame {
+        height: 25vh;
+        aspect-ratio: 7/8;
+        width: auto;
+    }
+
+    .active {
+        height: 25vh;
+        aspect-ratio: 7/8;
+        width: auto;
+    }
+}
