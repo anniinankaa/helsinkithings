@@ -1,5 +1,5 @@
 # Palautus
-Linkki nettisivulle: https://6a008cee94745564d5d75b43--ornate-piroshki-256c77.netlify.app
+Linkki nettisivulle: https://helsinkithings.netlify.app
 Linkki Figmaan: https://www.figma.com/design/Na6j8jDnw6ylBQR96azrLE/Helsinkithings?node-id=0-1&t=fvPAWTy4u1piMO9G-1
 
 # Reflektio
