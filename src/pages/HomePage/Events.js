@@ -71,7 +71,7 @@ export const events = [
         description: "An international second-hand bookshop and cultural space. Feels more like a living room than a store. You can read, meet new people, have a chat, and let time slow down.",
         info: {address: 'Nervanderinkatu 11', website: 'https://arkadiabookshop.fi', ighandle: 'arkadia bookshop'},
         tags: ['Relaxing', 'Inside', 'History', 'Group fun']
-    }
+    },
     
     {
         name: 'Bar Petiit',
@@ -103,12 +103,7 @@ export const events = [
         info: {address: 'Eteläinen Hesperiankatu 22', website: 'https://elite.fi', ighandle: 'ravintolaelite'},
         tags: ['Relaxing', 'Outside', 'Date', 'Night owl', 'History']
     },
-    {
-        name: 'Suomenlinna',
-        description: "Just a short ferry ride from Kauppatori (HSL ticket valid), this sea fortress unfolds into beautiful nature, small neighbourhoods, and a surprisingly lively cultural scene. There's often something happening like concerts, exhibitions, open studios but also plenty of quiet corners to enjoy the sea.",
-        info: {address: 'Suomenlinna', website: 'https://suomenlinna.fi', ighandle: ''},
-        tags: ['Natural', 'Outside', 'Date', 'Early bird', 'History']
-    },
+    
     {
         name: 'Sompasauna',
         description: "Helsinki's most iconic sauna! Sompasauna is a woodheated self-service public sauna, built and lovingly maintained by a group of volunteers. The sauna is open around the clock and free for everyone to use.",
