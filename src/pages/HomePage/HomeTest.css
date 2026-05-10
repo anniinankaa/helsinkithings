@@ -55,7 +55,6 @@
     .image-container {
         flex-direction: column;
         justify-self: center;
-        transform: scale(auto);
         margin-top: 2vh;
     }
 

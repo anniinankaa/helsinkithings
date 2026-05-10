@@ -107,10 +107,6 @@ button:hover {
         width: auto;
     }
 
-    .option {
-        transform: scale(auto);
-    }
-
     .text-box {
         font-size: 16px;
     }
