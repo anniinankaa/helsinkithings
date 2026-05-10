@@ -6,21 +6,21 @@
     width: 100%;
     height: auto;
     background: var(--color-light-blue);  
-    padding: 50px;
+    padding: var(--space-sm);
 }
 
 .option {
-    width: 500px;
+    max-width: 80%;
+    width: 30rem;
     height: 100%;
     background: var(--color-primary);
     justify-self: center;
-    padding: 2%;
+    padding: var(--space-sm);
     margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: var(--space-md);
-    
 }
 
 .options-container {
@@ -61,11 +61,11 @@ button:hover {
 }
 
 .left-button {
-    left: 1%;
+    left: 0%;
 }
 
 .right-button {
-    right: 1%;
+    right: 0%;
 }
 
 .option > h3 {
@@ -73,7 +73,7 @@ button:hover {
 }
 
 .text-box {
-    width: 327px;
+    width: 100%;
     height: 286px;
     text-align: left;
     font-size: 20px;
