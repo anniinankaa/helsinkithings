@@ -8,8 +8,25 @@ import AboutExplore from './AboutExplore';
 import AboutPeople from './AboutPeople';
 import AboutContact from './AboutContact';
 import './about.css'
+import { useEffect } from 'react';
 
 function AboutPage () {
+
+  useEffect(() => {
+    document.title = "Helsinkithings | About";
+
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute("content", "Learn more about the Helsinkithings team and the story behind our project.");
+    };
+
+    return () => {
+      if (metaDescription) {
+        metaDescription.setAttribute("content", "Discover activities in Helsinki. Take the test and find out what to do!");
+      };
+    };
+  }, []);
+
   return (
     <div>
       <AboutHero />
