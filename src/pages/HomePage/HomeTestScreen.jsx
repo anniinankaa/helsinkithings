@@ -13,14 +13,12 @@ function HomeTest ({iD, onSelect, color, borderColor, header, images = []}) {
 
     const pictures = images.map((pic) => (
        <PicFrame lineColor={borderColor} imageSrc={pic.src} 
-       label= {pic.label} alt={pic.alt} 
+       label= {pic.label} imageAlt={pic.alt} 
        isActive={isSelected === pic.label}
        onClick={() => handleClick(pic.label)}
        key={pic.label}
        />
     ));
-
-    
 
     return (
         <div className='test-screen' style={{"--background": color}}>
@@ -28,7 +26,7 @@ function HomeTest ({iD, onSelect, color, borderColor, header, images = []}) {
             <div className='image-container'>
                 {pictures}
             </div>
-            <div className={`preference-button ${isSelected === 'none' ? 'preference-active' : ''}`} onClick={() => handleClick('none')}>
+            <div className={`preference-button text-ml ${isSelected === 'none' ? 'preference-active' : ''}`} onClick={() => handleClick('none')}>
                 No preference
             </div>
         </div>

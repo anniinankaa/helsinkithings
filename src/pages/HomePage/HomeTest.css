@@ -51,6 +51,21 @@
     margin-top: 50px;
 }
 
+#test-q5 {
+  color: var(--color-primary);
+
+  .preference-button {
+    border: 1px solid var(--color-primary);
+  }
+
+  .preference-active {
+    border: 2px;
+    background-color: var(--color-primary);
+    color: var(--background);
+    cursor: pointer;
+  }
+}
+
 @media (max-width: 768px) {
     .image-container {
         flex-direction: column;

@@ -19,7 +19,7 @@ function Navbar () {
           <Link to="/about">About</Link>
         </div>
       </div>
-      <button onClick={toggleMenu} className={`mobile-nav-button ${isOpen ? "open" : ""}`}>
+      <button onClick={toggleMenu} className={`mobile-nav-button ${isOpen ? "open" : ""}`} aria-label="Menu">
         <div className="menu-button-line"></div>
         <div className="menu-button-line"></div>
       </button>

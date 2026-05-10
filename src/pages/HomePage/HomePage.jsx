@@ -10,11 +10,11 @@ function HomePage () {
   }, []);
 
   return ( 
-   <div>
+   <main>
       <HomePics/>
       <HomeIntro/> 
       <HomeTests/>
-  </div>
+    </main>
 );
 
 }

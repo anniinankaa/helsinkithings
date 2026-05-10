@@ -28,7 +28,7 @@ function AboutPage () {
   }, []);
 
   return (
-    <div>
+    <main>
       <AboutHero />
       <AboutStats />
       <SplitContainer 
@@ -44,7 +44,7 @@ function AboutPage () {
       <AboutExplore />
       <AboutPeople />
       <AboutContact />
-    </div>
+    </main>
   )
 }
 

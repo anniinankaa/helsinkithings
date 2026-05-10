@@ -10,6 +10,7 @@
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     border: var(--border);
     user-select: none;
+    color: var(--color-black);
 }
 
 .picFrame img {
@@ -34,6 +35,7 @@
     box-shadow: 0 0 0 10px var(--border);
     cursor: pointer;
     user-select: none;
+    color: var(--color-black);
 }
 
 .active img {
