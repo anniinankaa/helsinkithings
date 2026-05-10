@@ -1,5 +1,5 @@
 import { Link } from "react-router"
-import './navbar.css'
+import './Navbar.css'
 import {useState} from "react"
 
 function Navbar () {

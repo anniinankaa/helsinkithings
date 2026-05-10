@@ -1,10 +1,5 @@
 
 export const events = [
-    {name: 'Sinisen huvilan kahvila', 
-     description: "A lovely outdoor café overlooking Töölönlahti next to historic wooden villas. Serving coffee and snacks in one of the most scenic terraces in the city framed by trees and lake reflections.",
-     info: {address: 'Linnunlauluntie 11', website: 'https://www.sinisenhuvilankahvila.com', ighandle: 'sinisenhuvilankahvila'},
-     tags: ['Relaxing', 'Outside', 'Me, myself and I', 'Date', 'Early bird', 'Food']
-     },
     
     {
         name: 'Lapinlahti',
@@ -52,7 +47,7 @@ export const events = [
         name: 'Kulttuurisauna',
         description: "Kulttuurisauna is a quiet, minimalist retreat inspired by both Finnish and Japanese bathing traditions. Here, silence and stillness are part of the experience. It's not a place for groups or conversation.",
         info: {address: 'Hakaniemenranta 17', website: 'https://kulttuurisauna.fi', ighandle: 'kulttuurisauna'},
-        tags: ['Relaxing', 'Inside', 'Me, myself and I', 'Night owl', 'Nature']
+        tags: ['Relaxing', 'Inside', 'Me, myself and I', 'Nature']
     },
     {
         name: 'Kino Engel',
@@ -103,7 +98,7 @@ export const events = [
         info: {address: 'Eteläinen Hesperiankatu 22', website: 'https://elite.fi', ighandle: 'ravintolaelite'},
         tags: ['Relaxing', 'Outside', 'Date', 'Night owl', 'History']
     },
-    
+
     {
         name: 'Sompasauna',
         description: "Helsinki's most iconic sauna! Sompasauna is a woodheated self-service public sauna, built and lovingly maintained by a group of volunteers. The sauna is open around the clock and free for everyone to use.",
