@@ -33,7 +33,7 @@ export const events = [
     },
     {
         name: 'CreativeMornings',
-        description: "A monthly breakfast talk series open to every creative and curious mind. Each session features a new theme, a local speaker, and warm community vibes, all hosted at the Design Museum. A lovely way to start the day with inspiration, good coffee and fresh perspective.",
+        description: "A monthly breakfast talk series open to every creative and curious mind. Each session features a new theme, a local speaker, and warm community vibes, all hosted at the Design Museum. ",
         info: {address: 'Design Museum', website: 'https://creativemornings.com/cities/hel', ighandle: 'helsinki_cm'},
         tags: ['Crowded', 'Inside', 'Group fun', 'Early bird', 'Art']
     },
