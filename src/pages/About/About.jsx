@@ -7,7 +7,7 @@ import AboutCollage from './AboutCollage';
 import AboutExplore from './AboutExplore';
 import AboutPeople from './AboutPeople';
 import AboutContact from './AboutContact';
-import './about.css'
+import './About.css'
 import { useEffect } from 'react';
 
 function AboutPage () {
