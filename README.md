@@ -32,11 +32,12 @@ Vikke:
 Aapo:
 
 Anniina:
+- projektin luonti 0,5 h
 - moodboard ja refet 2h
 - sisällön haku ja luonti 2h
 - figma (about-sivun ja heron design) 8h
 - UI 3h
 - sivujen julkaisu 1h
-= yht. 16h
+= yht. 16,5h
 
 Samu
