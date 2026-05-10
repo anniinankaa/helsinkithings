@@ -71,7 +71,7 @@ export const events = [
         description: "An international second-hand bookshop and cultural space. Feels more like a living room than a store. You can read, meet new people, have a chat, and let time slow down.",
         info: {address: 'Nervanderinkatu 11', website: 'https://arkadiabookshop.fi', ighandle: 'arkadia bookshop'},
         tags: ['Relaxing', 'Inside', 'History', 'Group fun']
-    }
+    },
     
     {
         name: 'Bar Petiit',
