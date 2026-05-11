@@ -55,5 +55,5 @@ Anniina:
 Samu
 
 # Muita huomioita
-- Etusivun kuvakollaasin koristeellisten kuvien alt-tekstit ovat tarkoituksella tyhjät, sillä ne ovat koristeellisia ja häiritsisivät turhaan screen readereita.
 - Nuolet testitulosten välillä liikkumiseen ovat ulkoisen kirjaston (lucide-react) komponentteja.
+- Etusivun kuvakollaasin kuvien alt-tekstit olisivat todellisuudessa tyhjät (ainoastaan häiritsevät screen readereita), mutta projektin vaatimusten vuoksi pelasimme varman päälle.
