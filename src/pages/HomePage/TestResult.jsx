@@ -53,7 +53,8 @@ function TestResult ({results}) {
                 <button className='left-button'onClick={prevOption} aria-label="Previous recommendation"><ChevronLeft size={64} /></button>
             </div>
             :   <div className='option'>
-                <SidewaysSection header='No suggestions'/>
+                    <h3>No suggestions yet</h3>
+                    Complete the test above to get our suggestions based on your preferences.
                 </div> 
                 }
             <h3>More things to do and see in Helsinki</h3>
