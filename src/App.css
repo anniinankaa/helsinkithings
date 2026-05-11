@@ -16,6 +16,10 @@
   width: 15rem;
   border-radius: 100px;
   padding: .5rem;
+
+  @media (max-width: 1024px) {
+    width: 8rem;
+  }
 }
 
 .single-container {

@@ -15,7 +15,7 @@ function AboutContact() {
             <a href="mailto:helsinkithings@gmail.com" className={`${styles.filledButton} text-lg`}>• contact us</a>
           </div>
         </div>
-        <img src="about/about-contact.webp" alt="people enjoying a summer evening on a diner terrace under warm streetlamps, with flower pots in the foreground"/>
+        <img src="about/about-contact.webp" alt="People enjoying a summer evening on a diner terrace under warm streetlamps, with flower pots in the foreground"/>
       </div>
     </div>
   )

@@ -31,7 +31,7 @@
     user-select: none;
 }
 
-.preference-button:hover {
+.preference-button:hover, .preference-button:focus {
     cursor: pointer;
     transform: scale(1.1);
     transition: transform 0.2s ease;

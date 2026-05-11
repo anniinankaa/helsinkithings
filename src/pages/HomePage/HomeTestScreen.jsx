@@ -26,7 +26,15 @@ function HomeTest ({iD, onSelect, color, borderColor, header, images = []}) {
             <div className='image-container'>
                 {pictures}
             </div>
-            <div className={`preference-button text-ml ${isSelected === 'none' ? 'preference-active' : ''}`} onClick={() => handleClick('none')}>
+            <div className={`preference-button text-ml ${isSelected === 'none' ? 'preference-active' : ''}`} 
+            onClick={() => handleClick('none')}
+            onKeyDown={(e) => {
+              if (e.key === 'Enter' || e.key === ' ') {
+                handleClick('none');
+              }
+            }}
+            role="button"
+            tabIndex="0">
                 No preference
             </div>
         </div>
