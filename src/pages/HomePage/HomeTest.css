@@ -4,6 +4,7 @@
     min-height: 95vh;
     background: var(--background);
     overflow-y: auto;
+    overflow-x: hidden;
     background: var(--background);
     display: flex;
     flex-direction: column;

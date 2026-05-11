@@ -45,14 +45,16 @@
 
 @media (max-width: 768px) {
     .picFrame {
-        width: 40vw;
+        height: 25vh;
         aspect-ratio: 7/8;
-        height: auto;
+        width: auto;
+        overflow: hidden;
     }
 
     .active {
-        width: 40vw;
+        height: 25vh;
         aspect-ratio: 7/8;
-        height: auto;
+        width: auto;
+        overflow: hidden;
     }
 }
