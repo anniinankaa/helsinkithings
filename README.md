@@ -60,7 +60,11 @@ Anniina:
 - sivujen julkaisu 2h
 = yht. 17,5h
 
-Samu
+Samu:
+- home-sivujen rakenteen koodaus: 9 h
+- testin logiikan koodaus: 8 h
+- korjaukset koodissa: 2h
+= yht. 19 h
 
 # Muita huomioita
 - Nuolet testitulosten välillä liikkumiseen ovat ulkoisen kirjaston (lucide-react) komponentteja.
