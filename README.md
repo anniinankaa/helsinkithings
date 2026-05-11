@@ -8,6 +8,7 @@ Linkki Figmaan: https://www.figma.com/design/Na6j8jDnw6ylBQR96azrLE/Helsinkithin
     - Committaamalla usein ja vähän kerralla ennaltaehkäisee tehokkaasti merge conflicteja.
     - Kommentoimatonta koodia on vaikea ymmärtää. Tähän upposi hieman aikaa.
     - Oli todella hyödyllistä käydä aluksi projekti läpi perinpohjaisesti, sillä tämän ansiosta ryhmäläiset olivat samalla aallonpituudella projektin suhteen ja ryhmällä oli yhteinen visio siitä, miten se etenee.
+    - Projektin tekeminen oli stressitöntä, kun missään vaiheessa ei tullut kiirettä.
 
 - Millaista työnjaon tekeminen oli? Oliko helppoa jakaa työ tehtäviin palasiin ryhmäläisten kesken?
     - Työnjako sujui melko vaivattomasti ryhmäläisten vahvuuksien ja toiveiden mukaisesti.
@@ -18,6 +19,7 @@ Linkki Figmaan: https://www.figma.com/design/Na6j8jDnw6ylBQR96azrLE/Helsinkithin
 - Mitä uutta opitte UI-suunnittelusta viestinnän keinona?
     - Toteutimme jo olemmassa olevalle brändille sekä brändin ilmettä jäljittelevän että samanaikaisesti sitä täydentävän sivuston.
     - Opimme, että suunnittelu kannattaa tehdä pitkälle valmiiksi ennen teknistä toteutusta. Tällöin tyylistä ja viestinnästä tulee yhtenäinen ja teknisestä toteutuksesta erillinen kokonaisuus eikä näitä tarvitse miettiä juurikaan koodia kirjoittaessa.
+    - Sivuston lopputulema on melko tarkkaan se, mitä ensimmäisessä suunnittelupalaverissa piirrettiin valkotaululle. Valmiille brändille oli helppo nähdä sille sopivat sivut, toisaalta olisi voinut iteroida suunnitelmaa.
 
 - Jos hyödynsitte tehtävän teossa tekoälyä, millä tavalla?
     - Sisältö: Generoimme sivuston testitulokset tekoälyllä e-kirjamme materiaalin pohjalta.
@@ -43,13 +45,13 @@ Vikke:
 - yht. 28 h
 
 Aapo:
--Figma: etusivun design pl. hero 4h
--Figma: etusivun mobiilikoko 3h
--navbar ja mobiilinavigaatio 1,5h
--testin responsiivisuus 3h
--muuta pientä 2h
--A+ palautus 1h
--yht 14,5h
+- Figma: etusivun design pl. hero 4h
+- Figma: etusivun mobiilikoko 3h
+- navbar ja mobiilinavigaatio 1,5h
+- testin responsiivisuus 3h
+- muuta pientä 2h
+- A+ palautus 0,5h
+- yht 14h
 
 Anniina:
 - projektin luonti 30 min
