@@ -13,7 +13,7 @@ function AboutPeople() {
         <b>Annastiina</b> holds a Master’s degree in Business and works as a freelance marketing professional with a strong interest in culture, art and storytelling.
       </p>
       <br/>
-      <a href="https://www.linkedin.com/in/annastiina-karvanen/">
+      <a href="https://www.linkedin.com/in/annastiina-karvanen/" target="_blank" rel="noopener noreferrer">
         LinkedIn Annastiina Karvanen
       </a>
       <br/><br/><br/>
@@ -21,7 +21,7 @@ function AboutPeople() {
         <b>Anniina</b> has a multidisciplinary academic background in psychology and engineering, with a focus on service design, and creative, community-supporting solutions.
       </p>
       <br/>
-      <a href="https://www.linkedin.com/in/anniina-karvanen/">
+      <a href="https://www.linkedin.com/in/anniina-karvanen/" target="_blank" rel="noopener noreferrer">
         LinkedIn Anniina Karvanen
       </a>
       <br/>

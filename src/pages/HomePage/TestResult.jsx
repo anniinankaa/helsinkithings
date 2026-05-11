@@ -35,13 +35,13 @@ function TestResult ({results}) {
                     <div className='text-box'>
                         <span>{k.description} <br/><br/> 
                         {k.info.address} <br/> 
-                        <a href={k.info.website} target="_blank">{k.info.website} </a><br/> 
-                        <a href={`https://www.instagram.com/${k.info.ighandle}`} target="_blank">@{k.info.ighandle}</a></span>
+                        <a href={k.info.website} target="_blank" rel="noopener noreferrer">{k.info.website} </a><br/> 
+                        <a href={`https://www.instagram.com/${k.info.ighandle}`} target="_blank" rel="noopener noreferrer">@{k.info.ighandle}</a></span>
                     </div>
                 <span>{currentIndex + 1} / {options.length}</span>
                 </div>)}
-                <button className='right-button'onClick={nextOption}><ChevronRight size={64}/></button>
-                <button className='left-button'onClick={prevOption}><ChevronLeft size={64} /></button>
+                <button className='right-button'onClick={nextOption} aria-label="Next recommendation"><ChevronRight size={64}/></button>
+                <button className='left-button'onClick={prevOption} aria-label="Previous recommendation"><ChevronLeft size={64} /></button>
             </div>
             :   <div className='option'>
                 <SidewaysSection header='No suggestions'/>
@@ -49,13 +49,13 @@ function TestResult ({results}) {
                 }
             <h3>More things to do and see in Helsinki</h3>
             <div className='buttons'>
-                <a href='https://payhip.com/helsinkithings' className='more-button'>
+                <a href='https://payhip.com/helsinkithings' className='more-button' target="_blank" rel="noopener noreferrer">
                     <p>E-book by Helsinkithings</p>
                 </a>
-                <a href='https://www.instagram.com/helsinkithings' className='more-button'>
+                <a href='https://www.instagram.com/helsinkithings' className='more-button' target="_blank" rel="noopener noreferrer">
                     <p>Instagram</p>
                 </a>
-                <a href='https://www.tiktok.com/@helsinkithings' className='more-button'>
+                <a href='https://www.tiktok.com/@helsinkithings' className='more-button' target="_blank" rel="noopener noreferrer">
                     <p>TikTok</p>
                 </a>
             </div>
