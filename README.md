@@ -4,14 +4,19 @@ Linkki Figmaan: https://www.figma.com/design/Na6j8jDnw6ylBQR96azrLE/Helsinkithin
 
 # Reflektio
 - Mitä opitte git yhteistyöstä ja yhdessä projektin tekemisestä? Mitä haasteita yhteistyö gitissä mahdollisesti aiheutti?
-    - git yhteistyö onnistuu näppärästi, hyvä kommunikointi on toki a ja o
+    - Git yhteistyö onnistuu näppärästi, hyvä kommunikointi on toki a ja o.
+    - Committaamalla usein ja vähän kerralla ennaltaehkäisee tehokkaasti merge conflicteja.
+    - Kommentoimatonta koodia on vaikea ymmärtää. Tähän upposi hieman aikaa.
+    - Oli todella hyödyllistä käydä aluksi projekti läpi perinpohjaisesti, sillä tämän ansiosta ryhmäläiset olivat samalla aallonpituudella projektin suhteen ja ryhmällä oli yhteinen visio siitä, miten se etenee.
 
 - Millaista työnjaon tekeminen oli? Oliko helppoa jakaa työ tehtäviin palasiin ryhmäläisten kesken?
-    - työnjako sujui alkuun melko vaivattomasti ryhmäläisten vahvuuksien ja toiveiden mukaisesti
-    - aikataulusta projektin eri osien toteutukselle olisi voinut sopia paremmin etukäteen
+    - Työnjako sujui melko vaivattomasti ryhmäläisten vahvuuksien ja toiveiden mukaisesti.
+    - Aikataulusta projektin eri osien toteutukselle olisi voinut sopia paremmin etukäteen.
+    - Suurempi panos kommunikaatioon olisi luultavasti pitänyt jokaisen paremmin kärryillä projektin etenemisestä ja tehtävistä.
 
 - Mitä uutta opitte UI-suunnittelusta viestinnän keinona?
-    - toteutimme jo olemmassa olevalle brändille sekä brändin ilmettä jäljittelevän että samanaikaisesti sitä täydentävän sivuston
+    - Toteutimme jo olemmassa olevalle brändille sekä brändin ilmettä jäljittelevän että samanaikaisesti sitä täydentävän sivuston.
+    - Opimme, että suunnittelu kannattaa tehdä pitkälle valmiiksi ennen teknistä toteutusta. Tällöin tyylistä ja viestinnästä tulee yhtenäinen ja teknisestä toteutuksesta erillinen kokonaisuus eikä näitä tarvitse miettiä juurikaan koodia kirjoittaessa.
 
 - Jos hyödynsitte tehtävän teossa tekoälyä, millä tavalla?
     - Sisältö: Generoimme sivuston testitulokset tekoälyllä e-kirjamme materiaalin pohjalta.
@@ -19,15 +24,22 @@ Linkki Figmaan: https://www.figma.com/design/Na6j8jDnw6ylBQR96azrLE/Helsinkithin
 
 # Projektipäällikkyyden jako
 
-Projektipäällikkö vastaa tietyn osuuden etenemisestä aikataulun mukaisesti ja jakaa tehtäviä.
+Projektipäällikkö vastaa tietyn osuuden etenemisestä aikataulun mukaisesti ja jakaa tehtäviä. Lopulta projektipäällikkyys ei vaatinut juurikaan organisointia, vaan ryhmän jäsenet ottivat melko vapaasti itselleen tehtäviä projektipäällikön nähdessä kuitenkin eniten vaivaa kyseisen osuuden eteen.
 
 - Suunnittelu: Aapo ja Anniina
-- Tekninen toteutus: Vikke ja Samu
+- Tekninen toteutus: 
+    - Vikke - about-sivu
+    - Samu - etusivu
 
 # Tehtävät ja työtunnit
 
 Vikke:
-- about-sivun toteutus sekä sen mobiilikoko Figmassa,
+- Figma: about-sivun mobiilikoko 3 h
+- Suurin osa About-sivun teknisestä toteutuksesta: 9 h
+- kotisivun responsiivisuus (kuvakollaasi, testi ym.): 3 h
+- saavutettavuus (aria-labelit, tab-navigointi ym.): 6 h
+- muuta pientä (ks. commitit): 7 h
+- yht. 28 h
 
 Aapo:
 
