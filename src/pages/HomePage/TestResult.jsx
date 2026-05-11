@@ -34,8 +34,12 @@ function TestResult ({results}) {
                     <h3>{k.name}</h3>
                     <div className='text-box'>
                         <span>{k.description} <br/><br/> 
-                        {k.info.address} <br/> 
-                        <a href={k.info.website} target="_blank" rel="noopener noreferrer">{k.info.website} </a><br/> 
+                        {k.info.address} <br/>
+                        { k.info.website && 
+                            <a href={k.info.website} target="_blank" rel="noopener noreferrer">
+                                {k.info.website}
+                            </a>
+                        }
                         <a href={`https://www.instagram.com/${k.info.ighandle}`} target="_blank" rel="noopener noreferrer">@{k.info.ighandle}</a></span>
                     </div>
                 <span>{currentIndex + 1} / {options.length}</span>
