@@ -13,15 +13,15 @@ function HomeIntro () {
                 </p>
 
                 <div className="social-buttons">
-                    <a href="https://www.instagram.com/helsinkithings" className="outline-button">
+                    <a href="https://www.instagram.com/helsinkithings" className="outline-button" target="_blank" rel="noopener noreferrer">
                         Instagram
                     </a>
 
-                    <a href="https://www.tiktok.com/@helsinkithings" className="outline-button">
+                    <a href="https://www.tiktok.com/@helsinkithings" className="outline-button" target="_blank" rel="noopener noreferrer">
                         TikTok
                     </a>
 
-                    <a href="https://payhip.com/helsinkithings" className="outline-button">
+                    <a href="https://payhip.com/helsinkithings" className="outline-button" target="_blank" rel="noopener noreferrer">
                         E-book
                     </a>
                 </div>
