@@ -13,6 +13,7 @@ Linkki Figmaan: https://www.figma.com/design/Na6j8jDnw6ylBQR96azrLE/Helsinkithin
     - Työnjako sujui melko vaivattomasti ryhmäläisten vahvuuksien ja toiveiden mukaisesti.
     - Aikataulusta projektin eri osien toteutukselle olisi voinut sopia paremmin etukäteen.
     - Suurempi panos kommunikaatioon olisi luultavasti pitänyt jokaisen paremmin kärryillä projektin etenemisestä ja tehtävistä.
+    - Toteutusvaiheen tehtäviä olisi voinut jakaa selkeämmin ja aikaisemmin, toteutus lähti etenemään aikaisin ilman selkeää työnjakoa ja kommunikaatiota, vapun jälkeen työnjako mallia "mitä vielä puuttuu?"
 
 - Mitä uutta opitte UI-suunnittelusta viestinnän keinona?
     - Toteutimme jo olemmassa olevalle brändille sekä brändin ilmettä jäljittelevän että samanaikaisesti sitä täydentävän sivuston.
@@ -42,6 +43,13 @@ Vikke:
 - yht. 28 h
 
 Aapo:
+-Figma: etusivun design pl. hero 4h
+-Figma: etusivun mobiilikoko 3h
+-navbar ja mobiilinavigaatio 1,5h
+-testin responsiivisuus 3h
+-muuta pientä 2h
+-A+ palautus 1h
+-yht 14,5h
 
 Anniina:
 - projektin luonti 30 min
