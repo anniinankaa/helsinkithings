@@ -30,7 +30,7 @@ function AboutPeople() {
   
   const collage = (
     <div className={styles.collage}>
-      <img src="/about/about-sisters.webp" alt="Two sisters sitting together" />
+      <img src="/about/about-sisters.webp" alt="Annastiina and Anniina sitting together" />
       <img src="/about/about-museum.webp" alt="The grand foyer of a museum" />
     </div>
   )

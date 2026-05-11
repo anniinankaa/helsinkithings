@@ -27,7 +27,7 @@ function AboutHero() {
   
   const rightPane = (
     <div className={`${styles.imageContainer} ${styles.pane}`}>
-      <img src="/about/about-hero.webp" alt="a café in the afternoon"></img>
+      <img src="/about/about-hero.webp" alt="outside a café in the afternoon"></img>
     </div>
   )
   
